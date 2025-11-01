@@ -1,1 +1,1 @@
-https://maninspacee.github.io/kr2-frontend-backend/
+https://github.com/paleavenger/front-back-KR2
