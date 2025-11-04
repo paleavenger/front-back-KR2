@@ -45,62 +45,63 @@
 	</div>
 </nav>
 
-<div class="container bg-white d-flex justify-content-between px-5 mt-5 py-3 mx-auto w-75 border rounded-2 shadow">
-	<h4 class="m-0">Мои проекты</h4>
-	<div class="">
-		<span class="m-0">[Все]</span>
-		<span class="m-0">[HTML]</span>
-		<span class="m-0">[JS]</span>
-		<span class="m-0">[React]</span>
-	</div>
-</div>
-<div class="card w-75 mx-auto my-4 shadow">
-	<div class="card-body">
-		<div class="row g-3">
-			<div class="col-6">
-				<div class="card shadow-sm" data-bs-toggle="modal"
-											data-bs-target="#project1Modal">
-					<img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/site.png" alt="photo">
-					<div class="card-footer">
-						<h5 class="card-title">Личный сайт</h5>
-						<span class="bg-primary text-white fw-semibold rounded-2 px-2">HTML/CSS</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="card shadow-sm" data-bs-toggle="modal"
-				                            data-bs-target="#project4Modal">
-					<img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/bootstrap.png" alt="photo">
-					<div class="card-footer">
-						<h5 class="card-title">Портфолио</h5>
-						<span class="text-white fw-semibold rounded-2 px-2" style="background-color: #9900ff">Bootstrap</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="card shadow-sm" data-bs-toggle="modal"
-											data-bs-target="#project2Modal">
-                    <img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/istockphoto-1417048081-612x612.jpg" alt="photo">
-					<div class="card-footer">
-						<h5 class="card-title">Todo приложение</h5>
-						<span class="bg-warning text-black fw-semibold rounded-2 px-2">Javascript</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="card shadow-sm" data-bs-toggle="modal"
-				                            data-bs-target="#project3Modal">
-                    <img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/netshop.png" alt="photo">
-					<div class="card-footer">
-						<h5 class="card-title">Интернет-магазин</h5>
-						<span class="text-white fw-semibold rounded-2 px-2" style="background-color: #009dff">React</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
+<main>
+    <div class="container bg-white d-flex justify-content-between px-5 mt-5 py-3 mx-auto w-75 border rounded-2 shadow">
+        <h4 class="m-0">Мои проекты</h4>
+        <div class="">
+            <button class="btn btn-primary">[Все]</button>
+            <button class="btn btn-primary">[HTML]</button>
+            <button class="btn btn-primary">[JS]</button>
+            <button class="btn btn-primary">[React]</button>
+        </div>
+    </div>
+    <div class="card w-75 mx-auto my-4 shadow">
+        <div class="card-body">
+            <div class="row g-3">
+                <div class="col-6">
+                    <div class="card shadow-sm" data-bs-toggle="modal"
+                                                data-bs-target="#project1Modal">
+                        <img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/site.png" alt="photo">
+                        <div class="card-footer">
+                            <h5 class="card-title">Личный сайт</h5>
+                            <span class="bg-primary text-white fw-semibold rounded-2 px-2">HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-sm" data-bs-toggle="modal"
+                                                data-bs-target="#project4Modal">
+                        <img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/bootstrap.png" alt="photo">
+                        <div class="card-footer">
+                            <h5 class="card-title">Портфолио</h5>
+                            <span class="text-white fw-semibold rounded-2 px-2" style="background-color: #9900ff">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-sm" data-bs-toggle="modal"
+                                                data-bs-target="#project2Modal">
+                        <img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/istockphoto-1417048081-612x612.jpg" alt="photo">
+                        <div class="card-footer">
+                            <h5 class="card-title">Todo приложение</h5>
+                            <span class="bg-warning text-black fw-semibold rounded-2 px-2">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-sm" data-bs-toggle="modal"
+                                                data-bs-target="#project3Modal">
+                        <img class="card-img-top img-fluid" style="object-fit: cover; height: 150px" src="../images/screenshots/netshop.png" alt="photo">
+                        <div class="card-footer">
+                            <h5 class="card-title">Интернет-магазин</h5>
+                            <span class="text-white fw-semibold rounded-2 px-2" style="background-color: #009dff">React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 <!-- FOOTER -->
 <footer class="bg-dark py-3">
 	<div class="container">
@@ -127,15 +128,15 @@
 				<div id="project1Carousel" class="carousel slide shadow border rounded-2"  data-bs-ride="carousel" data-bs-interval="5000" data-bs-wrap="true">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img class="d-block w-100 rounded-2" src="../images/screenshots/html-css-screenshot1.png" alt="w">
+							<img class="d-block w-100 rounded-2" src="../images/screenshots/site.png" alt="w">
 							<div class="carousel-caption">screenshot-1</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100 rounded-2" src="../images/screenshots/html-css-screenshot2.png" alt="">
+							<img class="d-block w-100 rounded-2" src="../images/screenshots/news.png" alt="">
 							<div class="carousel-caption">screenshot-2</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100 rounded-2" src="../images/screenshots/html-css-screenshot3.png" alt="">
+							<img class="d-block w-100 rounded-2" src="../images/screenshots/shop.png" alt="">
 							<div class="carousel-caption">screenshot-3</div>
 						</div>
 					</div>
@@ -150,8 +151,8 @@
 				<div class="modal-footer d-flex flex-column text-center">
 					<p class="mb-0 mt-3">Личный сайт-портфолио собранный на HTML/CSS</p>
 					<div>
-						<a href="https://github.com/ManInSpacee/frontend-and-backend-practice">Исходный код</a>
-						<a href="https://maninspacee.github.io/frontend-and-backend-practice/index_v1.html">Живая версия</a>
+						<a href="https://github.com/paleavenger/front-back-practice9-12">Исходный код</a>
+						<a href="https://paleavenger.github.io/front-back-practice9-12/index_v1.html">Живая версия</a>
 					</div>
 				</div>
 			</div>

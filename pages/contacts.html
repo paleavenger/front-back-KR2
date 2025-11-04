@@ -45,54 +45,53 @@
 	</div>
 </nav>
 
-<div class="container">
+<main>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-6 d-flex justify-content-center">
+                <form class="bg-white w-75 border rounded-3 p-4 needs-validation" novalidate>
+                    <h5 class="text-center fw-normal mb-4">Свяжитесь со мной</h5>
+                    <div class="mb-3">
+                        <label for="nameInput" class="form-label">Имя</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Введите имя" required>
+                        <div class="invalid-feedback">Введите имя!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label">Email</label>
+                        <input type="email"
+                               class="form-control"
+                               id="emailInput"
+                               placeholder="Введите почту"
+                               required
+                               pattern="^[^\s@]{3,64}@[^\s@]{3,255}\.[a-zA-Z]{2,3}$"
+                        >
+                        <div class="invalid-feedback">Введите корректную почту!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="messageInput" class="form-label">Сообщение</label>
+                        <textarea type="text"
+                                  class="form-control"
+                                  id="messageInput"
+                                  placeholder="Введите сообщение"
+                                  required
+                        ></textarea>
+                        <div class="invalid-feedback">Введите сообщение!</div>
+                    </div>
 
-	<div class="row my-5">
-		<div class="col-6 d-flex justify-content-center">
-			<form class="bg-white w-75 border rounded-3 p-4 needs-validation" novalidate>
-				<h5 class="text-center fw-normal mb-4">Свяжитесь со мной</h5>
-				<div class="mb-3">
-					<label for="nameInput" class="form-label">Имя</label>
-					<input type="text" class="form-control" id="nameInput" placeholder="Введите имя" required>
-					<div class="invalid-feedback">Введите имя!</div>
-				</div>
-				<div class="mb-3">
-					<label for="emailInput" class="form-label">Email</label>
-					<input type="email"
-					       class="form-control"
-					       id="emailInput"
-					       placeholder="Введите почту"
-					       required
-					       pattern="^[^\s@]{3,64}@[^\s@]{3,255}\.[a-zA-Z]{2,3}$"
-					>
-					<div class="invalid-feedback">Введите корректную почту!</div>
-				</div>
-				<div class="mb-3">
-					<label for="messageInput" class="form-label">Сообщение</label>
-					<textarea type="text"
-					          class="form-control"
-					          id="messageInput"
-					          placeholder="Введите сообщение"
-					          required
-					></textarea>
-					<div class="invalid-feedback">Введите сообщение!</div>
-				</div>
-
-				<button class="btn btn-primary w-100" type="submit">Отправить</button>
-			</form>
-		</div>
-		<div class="col-6 d-flex flex-column justify-content-center w-50">
-			<h4 class="text-center">Контакты</h4>
-			<ul class="list-group">
-				<li class="list-group-item"><i class="bi-envelope-fill"> </i>zakharov.n.a1@edu.mirea.ru</li>
-				<li class="list-group-item"><i class="bi-github"> </i> paleavenger</li>
-				<li class="list-group-item"><i class="bi-geo-fill"></i> Москва, Россия</li>
-			</ul>
-		</div>
-	</div>
-
-</div>
-
+                    <button class="btn btn-primary w-100" type="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center w-50">
+                <h4 class="text-center">Контакты</h4>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="bi-envelope-fill"> </i>zakharov.n.a1@edu.mirea.ru</li>
+                    <li class="list-group-item"><i class="bi-github"> </i> paleavenger</li>
+                    <li class="list-group-item"><i class="bi-geo-fill"></i> Москва, Россия</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
 
 
 <!-- FOOTER -->
